@@ -1,0 +1,18 @@
+<% unless @map_place.errors.size > 0 %>
+	<div class="alert alert-success">
+		<span class="label label-default">Place Title:</span>
+		<span><%= @map_place.place %></span>
+		
+	  <span class="label label-default">Latitude:</span> 
+	  <span><%= @map_place.latitude %></span>
+		
+		<span class="label label-default">Longitude:</span> 
+		<span><%= @map_place.longitude %></span>
+		
+		Map place was successfully created.
+	</div>
+<% else %>
+	<div class="alert alert-danger">
+		<%= @map_place.errors.messages %>
+	</div>
+<% end %>

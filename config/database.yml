@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: gmaprs
+  pool: 5
+  username: gmaprs
+  password: gmaprs
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: gmaprs
+  pool: 5
+  username: gmaprs
+  password: gmaprs
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: gmaprs
+  pool: 5
+  username: gmaprs
+  password: gmaprs

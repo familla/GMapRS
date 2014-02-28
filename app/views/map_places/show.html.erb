@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @map_place.place %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @map_place.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @map_place.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_map_place_path(@map_place) %> |
+<%= link_to 'Back', map_places_path %>
